@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d911066a-fdaa-498b-baa4-651494a123ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/production.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/airdevice.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/device.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/devicepackets.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/gateway.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network-server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,40 +30,110 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+            <state relative-caret-position="137">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.babelrc">
+      <file leaf-file-name="network-server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/network-server.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="network-server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/network-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
+      <file leaf-file-name="device.model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/device.model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="305">
+              <caret line="19" column="31" selection-end-line="37" selection-end-column="54" />
+              <folding>
+                <element signature="e#15#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="airdevice.model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/airdevice.model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="24" lean-forward="true" selection-end-line="29" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devicepackets.model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/devicepackets.model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gateway.model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/gateway.model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+              <folding>
+                <element signature="e#53#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shared.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/shared.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/production.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>var</find>
+      <find>parse</find>
+      <find>AirDevice</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>let</replace>
+      <replace>DevicePacket</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,10 +141,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/src/config/production.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/config/index.js" />
+        <option value="$PROJECT_DIR$/src/config/development.js" />
+        <option value="$PROJECT_DIR$/src/models/gateway.model.js" />
+        <option value="$PROJECT_DIR$/src/models/device.model.js" />
+        <option value="$PROJECT_DIR$/src/config/shared.js" />
+        <option value="$PROJECT_DIR$/src/models/airdevice.model.js" />
+        <option value="$PROJECT_DIR$/src/models/devicepackets.model.js" />
+        <option value="$PROJECT_DIR$/src/network-server.js" />
       </list>
     </option>
   </component>
@@ -82,7 +171,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="285" />
-    <option name="width" value="1713" />
+    <option name="width" value="1776" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
@@ -97,6 +186,28 @@
               <item name="network-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="network-server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="network-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="network-server" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="network-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="network-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="network-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="network-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="network-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="network-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -106,7 +217,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/package.json" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -126,6 +238,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="Dev" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="REDIS_LINK" value="127.0.0.1" />
+        <env name="MONGOLAB_URI" value="mongodb://192.168.0.80:27017/network-server-dev" />
+        <env name="NODE_ENV" value="development" />
+      </envs>
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -136,26 +276,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532027499898</updated>
-      <workItem from="1532027501103" duration="1268000" />
+      <workItem from="1532027501103" duration="16039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1268000" />
+    <option name="totallyTimeSpent" value="16039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="285" y="0" width="1713" height="1087" extended-state="0" />
+    <frame x="285" y="0" width="1776" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970132" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24064478" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32976446" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32976446" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32976446" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32976446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -174,20 +314,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -198,7 +324,106 @@
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#2#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/production.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/network-server.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/shared.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/gateway.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding>
+            <element signature="e#53#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/device.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="19" column="31" selection-end-line="37" selection-end-column="54" />
+          <folding>
+            <element signature="e#15#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/airdevice.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="true" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/devicepackets.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/network-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

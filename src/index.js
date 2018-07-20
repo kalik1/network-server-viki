@@ -1,8 +1,5 @@
-
-export default function hello(user = 'World') {
-  return `Hello ${user}!\n`;
-}
+import networkServer from './network-server';
 
 if (require.main === module) {
-  process.stdout.write(hello());
+  networkServer();
 }

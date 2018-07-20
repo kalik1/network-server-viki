@@ -13,7 +13,8 @@
   },
   "scripts": {
     "lint": "eslint src/**",
-    "build": "babel --presets es2015 src -d lib",
+    "lint-fix": "eslint src/** --fix",
+    "build": "npx babel src --out-dir lib --copy-files",
     "prepublish": "npm run build",
     "start": "node lib/",
     "dev": "./node_modules/.bin/babel-node src/",
@@ -43,5 +44,14 @@
     "eslint-plugin-import": "^2.7.0",
     "isparta": "^4.0.0",
     "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "elasticsearch": "^15.1.1",
+    "lodash": "^4.17.10",
+    "lora-packet": "^0.7.5",
+    "mongoose": "^5.2.4",
+    "mongoose-autopopulate": "^0.8.0",
+    "redis": "^2.8.0",
+    "uuid": "^3.3.2"
   }
 }
